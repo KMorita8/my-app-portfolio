@@ -27,68 +27,31 @@
    </header>
    
    <div class="hero-section">
-     <div class="hero-content">
-      <h2>地元に出会い、宝物に出会う<br>～Meet locals. Discover hidden gems.～</h2>
-      <p>あなたの“好き”が、旅を動かす。<br>～Your next adventure starts with what you love.～</p>
-      <div class="search-form-container">
-        <input type="text" class="search-input" placeholder="行き先やアクティビティを検索">
-        <button type="submit" class="search-button">検索</button>
-         </div>
-         <div class="hero-buttons">
+      <div class="hero-content">
+        <h2>地元に出会い、宝物に出会う<br>～Meet locals. Discover hidden gems.～</h2>
+        <p>あなたの“好き”が、旅を動かす。<br>～Your next adventure starts with what you love.～</p>
+        <div class="search-form-container">
+          <form id="search-form">
+            <input type="text" id="search-input" class="search-input" placeholder="行き先やアクティビティを検索">
+            <button type="submit" id="search-button">検索</button>
+          </form> 
+        </div>
+        <div class="hero-buttons">
           <a href="#" class="hero-button">地元の人を探す</a>
           <a href="#" class="hero-button">旅人を探す</a>
           <a href="#" class="hero-button">行きたい場所から探す</a>
           <a href="#" class="hero-button">やりたいことから探す</a>
-         </div>
-     </div>
-    </div>
-
-    <div>
-      <section class="content-section">
-        <h2 class="section-title">地元のおすすめユーザー</h2>
-        <div class="user-list">
-          <div class="user-card">
-          <!--参考画像URL:https://www.pakutaso.com/20250702206b-11.html-->
-
-          <img src="img/User1.jpg" alt="地元ユーザー1のプロフィール画像" class="profile-img">
-          <h3 class="user-name">さとみさん</h3>
-          <p class="user-message">「地元の魅力を案内します！」</p>
-          <div class="user-rating">
-            ★★★★☆（4.5）
-          </div>
-          <div class="user-comment">
-          「一緒にタコ焼きパーティーをしました。<br>
-          とても親切で、地元のことをたくさん教えてくれました！」<br>
-            -旅人Aさん
-          </div>
-
-          </div>
-          <div class="user-card">
-          <img src="img/User2.jpg" alt="地元ユーザー2のプロフィール画像" class="profile-img">
-          <h3 class="user-name">りょうじさん</h3>
-          <p class="user-message">「隠れBarをご紹介!」</p>
-          <div class="user-rating">
-            ★★★★★(5.0)
-          </div>
-          <div class="user-comment">
-          「地元の人しか知らないバーに案内してくれて、最高の夜でした！バーのマスターとも仲良くなれました！」<br>
-          -旅人Bさん
-          </div>
-                
-          </div>
-          <div class="user-card">
-          <img src="img/User3.jpg" alt="地元ユーザー3のプロフィール画像" class="profile-img">
-          <h3 class="user-name">なるとさん</h3>
-          <p class="user-message">「地元グルメならお任せ!」</p>
-          <div class="user-rating">
-            ★★★★☆(4.5)
-          </div>
-          <div class="user-comment">
-            「おすすめされた定食屋が絶品！地元の味を堪能できました。」<br>
-            -旅人Cさん
-          </div>
         </div>
-     </section>
+      </div>
     </div>
+
+    <div class="content-section">
+      <h2 class="section-title">地元のおすすめユーザー</h2>
+      <div class="user-list" id="user-list-container">
+      </div>
+    </div>
+
+    <script src="JavaScript/users.js"></script>
+    <script src="JavaScript/main.js"></script>
   </body>
 </html>
