@@ -36,6 +36,9 @@ const server = http.createServer((req, res) => {
     }else if (url.endsWith('.png')){
       contentType = 'image/png';
     }
+    else if (url.endsWith('.webp')) {
+      contentType = 'image/webp';
+    }
     
     res.statusCode = 200;
     res.setHeader('Content-Type', contentType);

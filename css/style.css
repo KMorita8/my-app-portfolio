@@ -10,7 +10,7 @@ header{
 
 .hero-section{
   /*参考画像URL:https://www.pakutaso.com/20240400095post-40639.html*/
-  background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/Toppage2.webp');
+ background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/Toppage2.webp');
   background-size: cover;
   background-position: top center; 
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@ header{
   text-align: center;
 }
 
-.hero-content h2{
+.hero-content h2 {
   font-size:48px;
   margin-bottom:10px;
 }
@@ -32,7 +32,7 @@ header{
   font-size:20px;
 }
 
-.hero-buttons{
+.hero-buttons {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -49,16 +49,16 @@ header{
   transition: background-color 0.3s;
 }
 
-.hero-button:hover{
+.hero-button:hover {
   background-color: #e0e0e0;
 }
 
-.content-section{
+.content-section {
   padding: 40px 20px;
   background-color: #f9f9f9;
 }
 
-.section-title{
+.section-title {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -66,14 +66,14 @@ header{
   color: #333;
 }
 
-.user-list{
+.user-list {
   display: flex;
   gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.user-card{
+.user-card {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -81,7 +81,7 @@ header{
   text-align: center;
 }
 
-.profile-img{
+.profile-img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -96,12 +96,12 @@ header{
   margin-bottom: 8px;
 }
 
-.user-message{
+.user-message {
   font-size: 14px;
   color: #666;
 }
 
-.user-rating{
+.user-rating {
   font-size: 16px;
   color: #f5c518;
   margin-bottom: 8px;
@@ -117,22 +117,22 @@ header{
   font-style: italic;
 }
 
-.logo h1{
-  font-size:40px;
+.logo h1 {
+  font-size: 40px;
   color: #333;
 }
 
-.highlight{
+.highlight {
   color: #007bff;
 }
 
-.nav-menu ul{
+.nav-menu ul {
   display: flex;
   list-style:none;
   gap: 20px;
 }
 
-.nav-menu a, .ath-buttons a {
+.nav-menu a, .auth-buttons a {
   text-decoration: none;
   color: #555;
   font-weight: bold;
@@ -141,7 +141,7 @@ header{
   transition: background-color 0.3s;
 }
 
-.nav-menu a.about-us{
+.nav-menu a.about-us {
   color:#007bff;
 }
 
@@ -149,12 +149,12 @@ header{
   background-color: #e0e0e0;
 }
 
-.auth-buttons{
+.auth-buttons {
   display: flex;
   gap: 10px;
 }
 
-.auth-buttons .signup{
+.auth-buttons .signup {
   background-color: #007bff;
   color: white;
 }
@@ -163,7 +163,13 @@ header{
   background-color: #0056b3;
 }
 
-.search-input{
+.search-form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-input {
   width: 400px;
   padding: 15px;
   border-radius: 5px 0 0 5px;
@@ -171,7 +177,7 @@ header{
   font-size: 16px;
 }
 
-.search-button{
+.search-button {
   background-color: #007bff;
   color: white;
   border: none;
@@ -180,26 +186,3 @@ header{
   cursor: pointer;
   font-size: 16px;
 }
-
-.search-form-container{
-  display: flex;
-  margin-top: 20px;
-}
-
-.search-input{
- width: 400px; 
- padding: 15px;
- border-radius: 5px 0 0 5px;
- font-size: 16px;
-}
-
-.search-button{
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 15px 25px;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 16px;
-}
-
