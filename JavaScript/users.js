@@ -26,6 +26,6 @@ const users = [
     message: "Would you like to go cycling together?",
     image: "img/user4.jpg",
     rating: "★★★★★（5.0）",
-    comment: "Such a fun person—shared lots of great local cycling routes! - Traveler D"
+    comment: "Such a fun person—shared lots of great local cycling routes! - Traveler Dさん"
   }
 ];
