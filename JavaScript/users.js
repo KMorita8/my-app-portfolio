@@ -20,5 +20,12 @@ const users = [
     image: "img/user3.jpg",
     rating: "★★★★☆（4.5）",
     comment: "おすすめされた定食屋が絶品！地元の味を堪能できました。-旅人Cさん"
+  },
+  {
+    name: "Hiroさん",
+    message: "Would you like to go cycling together?",
+    image: "img/user4.jpg",
+    rating: "★★★★★（5.0）",
+    comment: "Such a fun person—shared lots of great local cycling routes! - Traveler D"
   }
 ];
